@@ -12,8 +12,10 @@
     <body>
 
         <div class="row">
-            <div class="large-12 columns">
+            <div class="large-12 columns first-row">
+                <img src="/img/logo_one.png" style="height:70px;width:70px"> &nbsp; &nbsp;
                 <h1>StyleLoft</h1>
+                <a class="manage-link" href="/manage">Manage</a>
             </div>
         </div>
 
@@ -42,8 +44,13 @@
 
         <footer>
             <div class="row">
+            <script type="text/javascript" async src="https://platform.twitter.com/widgets.js">
+            </script>
                 <div class="large-12 columns">
-                    <p>StyleLoft &copy; 2017 | <a href="/manage">Manage</a></p>
+                    <a class="twitter-share-button" href="https://twittercom/intent/tweet?text=Shop%20Online%20At%20StyleLoft">
+                    Tweet
+                    </a>
+                    <p>StyleLoft &copy; 2017</p>
                 </div>
             </div>
         </footer>

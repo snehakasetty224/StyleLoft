@@ -1,1 +1,4 @@
-# StyleLoft
+StyleLoft
+===========
+
+Online Clothing Store

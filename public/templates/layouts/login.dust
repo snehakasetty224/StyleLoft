@@ -22,15 +22,14 @@
                 <div class="top-bar">
                     <div class="top-bar-left">
                         <ul class="menu">
-                            <li><a href="/manage/employees">Dashboard</a></li>
+                            <li><a href="/manage">Dashboard</a></li>
                             <li><a href="/manage/apparels">Apparels</a></li>
-                            <!--<li><a href="/manage/categories">Categories</a></li>-->
+                            <li><a href="/manage/categories">Categories</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="row">
             <div class="large-12 columns">
                 <div id="wrapper">

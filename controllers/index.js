@@ -17,4 +17,9 @@ module.exports = function (router) {
     	});
     });
 
+
+    router.get('/landing', function (req, res) {
+        res.render('landing');
+    });
+
 };
