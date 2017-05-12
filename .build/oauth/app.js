@@ -22,7 +22,7 @@ window.addEventListener('load', function() {
       }
       localStorage.setItem('id_token', authResult.idToken);
       // Display user information
-      //show_profile_info(profile);
+       show_profile_info(profile);
        window.location.href = "../";
     });
   });
@@ -52,7 +52,7 @@ window.addEventListener('load', function() {
 
   var logout = function() {
     localStorage.removeItem('id_token');
-    window.location.href = "/";
+    window.location.href = "/indexauth.html";
   };
 
   retrieve_profile();

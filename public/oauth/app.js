@@ -52,7 +52,7 @@ window.addEventListener('load', function() {
 
   var logout = function() {
     localStorage.removeItem('id_token');
-    window.location.href = "/";
+    window.location.href = "/indexauth.html";
   };
 
   retrieve_profile();
