@@ -5,7 +5,7 @@ window.addEventListener('load', function() {
   // buttons
   var btn_login = document.getElementById('btn-login');
   var btn_logout = document.getElementById('btn-logout');
-  var btn_dropbox = document.getElementById('btn-dropbox');
+  //var btn_dropbox = document.getElementById('btn-dropbox');
 
   btn_login.addEventListener('click', function() {
     lock.show();
@@ -15,9 +15,9 @@ window.addEventListener('load', function() {
     logout();
   });
 
-  btn_dropbox.addEventListener('click', function() {
+  /*btn_dropbox.addEventListener('click', function() {
   dropbox();
-  });
+  });*/
 
   lock.on("authenticated", function(authResult) {
     lock.getProfile(authResult.idToken, function(error, profile) {
@@ -60,9 +60,9 @@ window.addEventListener('load', function() {
     window.location.href = "/indexauth.html";
   };
 
-  var dropbox = function() {
+  /*var dropbox = function() {
     window.location.href='https:www.dropbox.com/sso/1599209246';
-  };
+  };*/
 
   retrieve_profile();
 });
