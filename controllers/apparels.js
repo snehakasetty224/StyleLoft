@@ -1,5 +1,6 @@
 'use strict';
 
+
 var Apparel = require('../models/apparelModel');
 var Category = require('../models/categoryModel');
 

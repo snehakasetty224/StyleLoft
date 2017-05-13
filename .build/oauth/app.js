@@ -46,7 +46,7 @@ window.addEventListener('load', function() {
     document.getElementById('nickname').textContent = profile.nickname;
     btn_login.style.display = "none";
     avatar.src = profile.picture;
-    avatar.style.display = "inline-block";
+    avatar.style.display = "none";
     btn_logout.style.display = "inline-block";
   };
 

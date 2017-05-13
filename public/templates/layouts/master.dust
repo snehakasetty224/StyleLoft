@@ -10,12 +10,21 @@
     
     </head>
     <body>
+        <script src="/oauth/lock.min.js"></script>
+        <script src="/oauth/app.js"></script>
+
 
         <div class="row">
-            <div class="large-12 columns first-row">
+            <div class="first-row" style="display:inline-block; margin-left:50px;">
                 <img src="/img/logo_one.png" style="height:70px;width:70px"> &nbsp; &nbsp;
                 <h1>StyleLoft</h1>
                 <a class="manage-link" href="/manage">Manage</a>
+            </div>
+            <div style="text-align:right; display:inline-block; float:right; margin-right:50px;">
+                <img alt="avatar" id="avatar" style="display:none;">
+                <p style="margin-bottom:0;">Welcome <span id="nickname"></span></p>
+                <button type="submit" class="button" id="btn-login">Sign In</button>
+                <button type="submit" class="button" id="btn-logout" style="display:none;">Sign Out</button>
             </div>
         </div>
 
